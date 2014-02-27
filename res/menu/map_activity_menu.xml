@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/abloc" android:onClick="getCoords" android:title="@string/mmloc" android:orderInCategory="1"></item>
+    <item android:id="@+id/abview" android:title="@string/mmview" android:orderInCategory="2">
+        <menu>
+            <item android:id="@+id/absat" android:title="@string/mmsat" android:onClick="mapModeSat" android:orderInCategory="2"></item>
+            <item android:id="@+id/abnorm" android:orderInCategory="1" android:title="@string/map" android:onClick="mapModeNormal"/>
+        </menu>
+        <menu></menu>
+    </item>
+    
+
+</menu>

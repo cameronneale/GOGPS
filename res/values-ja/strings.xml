@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="add">追加</string>
+    <string name="app_name">GO GPS</string>
+    <string name="action_settings">設定</string>
+    <string name="defloc">ホーム</string>
+    <string name="fave">お気に入り</string>
+    <string name="goBtn">実行</string>
+    <string name="home">ホーム</string>
+    <string name="initsetup">最初セットアップ</string>
+    <string name="logo">ロゴ</string>
+    <string name="mmsat">航空写真</string>
+    <string name="map">地図</string>
+    <string name="mmloc">現在地</string>
+    <string name="mmview">マップ表示</string>
+    <string name="options">設定</string>
+    <string name="start">スタート</string>
+    <string name="search">検索</string>
+
+    <color name="dBlue">#142d3a</color>
+    <color name="dYellow">#ffc000</color>
+
+    <string name="title_activity_add_place">新しい場所の追加</string>
+    <string name="place_name">場所名</string>
+    <string name="longitude">経度</string>
+    <string name="latitude">緯度</string>
+    <string name="description">説明</string>
+    <string name="info_tap">目的地を保存するには、地図をクリックして下さい。</string>
+    <string name="title_faveplace_list">目的地の場所</string>
+    <string name="title_faveplace_detail">目的地場所の詳細</string>
+    <string name="title_activity_fave_places">場所</string>
+    <string name="fave_places">目的地場所</string>
+    <string name="history">履歴</string>
+    <string name="title_section3">セクション3</string>
+    <string name="title_activity_destinations">目的地</string>
+    <string name="icon_color">アイコンの色</string>
+    <string name="save">保存</string>
+    <string name="delete">削除</string>
+    <string name="currentLoc">現在地</string>
+    <string name="editplace_title">目的地の編集</string>
+    <string name="addplace_title">新しい目的地</string>
+    <string name="title_activity_add_visit">履歴の追加</string>
+    <string name="date">日付</string>
+    <string name="comment">コメント</string>
+    <string name="gosa">誤差</string>
+    <string name="null_visit">現在地を確認できません。もう一度実行して下さい。</string>
+    <string name="title_activity_visits">履歴の追加</string>
+    <string name="addvisit_title">履歴の追加</string>
+    <string name="editvisit_title">履歴の編集</string>
+    <string name="next">翌日</string>
+    <string name="prev">前日</string>
+    <string name="showallmap">マップで表示</string>
+    <string name="redFox">レッドフォックス株式会社</string>
+    <string name="workLoc">勤務先</string>
+    <string name="starbucks">STARBUCKS COFFEE</string>
+    <string name="cafe">カフェ</string>
+    <string name="punchIn">出勤</string>
+    <string name="punchOut">退勤</string>
+    <string name="breakTime">田中様と面談 080\-55\-5555</string>
+    <string name="title_activity_app">App</string>
+    <string name="lang">jpa</string>
+<string name="msaveCurrent">現在地を\n保存</string>
+    <string name="mgoHome">ホーム</string>
+    <string name="mvhistory">履歴一覧</string>
+    <string name="msdestinations">目的地一覧</string>
+    <string name="maddnew">目的地を\n追加</string>
+</resources>

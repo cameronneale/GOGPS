@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="add">Add</string>
+    <string name="app_name">GO GPS</string>
+    <string name="action_settings">Settings</string>
+    <string name="defloc">Default location:</string>
+    <string name="fave">Favorites</string>
+    <string name="goBtn">Apply</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home">Home</string>
+    <string name="initsetup">Initial setup</string>
+    <string name="logo">Logo</string>
+    <string name="mmsat">Satellite</string>
+    <string name="map">Map</string>
+    <string name="mmloc">Current location</string>
+    <string name="mmview">Map view</string>
+    <string name="options">Options</string>
+    <string name="start">Start</string>
+    <string name="search">Search</string>
+
+    <color name="dBlue">#142d3a</color>
+    <color name="dYellow">#ffc000</color>
+
+    <string name="title_activity_add_place">Add new destination</string>
+    <string name="place_name">Place name</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="description">Description</string>
+    <string name="info_tap">In order to save a new destination, click anywhere on the map.</string>
+    <string name="title_faveplace_list">FavePlaces</string>
+    <string name="title_faveplace_detail">FavePlace Detail</string>
+    <string name="title_activity_fave_places">Destinations</string>
+    <string name="fave_places">Favorite places</string>
+    <string name="history">History</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_destinations">Destinations</string>
+    <string name="icon_color">Icon color</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="currentLoc">Current location</string>
+    <string name="editplace_title">Edit place</string>
+    <string name="addplace_title">New place</string>
+    <string name="title_activity_add_visit">AddVisit</string>
+    <string name="date">Date</string>
+    <string name="comment">Comment</string>
+    <string name="gosa">Accuracy</string>
+    <string name="null_visit">Could not retrieve current location, please try again.</string>
+    <string name="title_activity_visits">Visit history</string>
+    <string name="addvisit_title">Add visit</string>
+    <string name="editvisit_title">Edit visit</string>
+    <string name="next">Next</string>
+    <string name="prev">Prev.</string>
+    <string name="showallmap">Show on map</string>
+    <string name="redFox">RED FOX</string>
+    <string name="workLoc">Work location</string>
+    <string name="starbucks">STARBUCKS COFFEE</string>
+    <string name="cafe">Cafe</string>
+    <string name="punchIn">Begin work</string>
+    <string name="punchOut">Finish work</string>
+    <string name="breakTime">Consultation with Mr. Tanaka 080\-55\-5555</string>
+    <string name="title_activity_app">App</string>
+    <string name="lang">eng</string>
+    <string name="msaveCurrent">Add current location</string>
+    <string name="mgoHome">Default location</string>
+    <string name="mvhistory">Show history</string>
+    <string name="msdestinations">Show destinations</string>
+    <string name="maddnew">Add new destination</string>
+
+</resources>

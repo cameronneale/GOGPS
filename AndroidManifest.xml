@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cameronneale.gogps"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="com.cameronneale.gogps.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.cameronneale.gogps.permission.MAPS_RECEIVE" />
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+    <!-- Permissions for accessing Google API servers -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.cameronneale.gogps.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cameronneale.gogps.MapLauncher"
+            android:theme="@android:style/Theme.Holo" >
+        </activity>
+        <activity
+            android:name="com.cameronneale.gogps.HomeMenu"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA-9iADYfBcafNCb_TiY7lwN5INF8mhxFY" />
+
+        <activity
+            android:name="com.cameronneale.gogps.AddPlace"
+            android:label="@string/title_activity_add_place"
+            android:parentActivityName="com.cameronneale.gogps.MapLauncher" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cameronneale.gogps.MapLauncher" />
+        </activity>
+        <activity
+            android:name="com.cameronneale.gogps.Destinations"
+            android:label="@string/title_activity_destinations"
+            android:parentActivityName="com.cameronneale.gogps.MapLauncher" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cameronneale.gogps.MapLauncher" />
+        </activity>
+        <activity
+            android:name="com.cameronneale.gogps.Visits"
+            android:label="@string/title_activity_visits"
+            android:parentActivityName="com.cameronneale.gogps.MapLauncher" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cameronneale.gogps.MapLauncher" />
+        </activity>
+        <activity
+            android:name="com.cameronneale.gogps.AddVisit"
+            android:label="@string/title_activity_add_visit"
+            android:parentActivityName="com.cameronneale.gogps.MapLauncher" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cameronneale.gogps.MapLaunchery" />
+        </activity>
+        <activity
+            android:name="com.cameronneale.gogps.App"
+            android:label="@string/title_activity_app" >
+        </activity>
+    </application>
+
+</manifest>
